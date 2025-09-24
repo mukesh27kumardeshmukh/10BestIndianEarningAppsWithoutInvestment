@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 बेस्ट भारतीय कमाई ऐप्स 2024 - बिना निवेश के पैसे कमाएं</title>
+    <meta name="description" content="2024 में बिना निवेश पैसे कमाने के लिए टॉप 10 भारतीय ऐप्स। क्विज़, सर्वे, गेम्स और शॉपिंग से आसानी से कमाएं।">
+    <meta name="keywords" content="कमाई ऐप्स, बिना निवेश, पैसे कमाएं, भारतीय ऐप्स, 2024, ऑनलाइन कमाई">
+    <meta name="author" content="ईयरनिंग अप्स हब">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #10B981;
+            --primary-dark: #059669;
+            --secondary: #1F2937;
+            --accent: #F59E0B;
+            --text: #FFFFFF;
+            --text-light: #D1D5DB;
+            --bg: #111827;
+            --card-bg: rgba(31, 41, 55, 0.9);
+            --shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            --radius: 12px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, var(--bg), #000);
+            color: var(--text);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px; 
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            border-radius: var(--radius);
+            margin-bottom: 40px;
+            box-shadow: var(--shadow);
+        }
+        header .logo { 
+            font-size: 2.8rem; 
+            font-weight: 700; 
+            margin-bottom: 10px; 
+        }
+        header .logo i { 
+            color: var(--accent); 
+            margin-right: 10px; 
+        }
+        header h1 { 
+            font-size: 2.3rem; 
+            margin-bottom: 15px; 
+        }
+        header .subtitle { 
+            font-size: 1.2rem; 
+            color: var(--text-light); 
+        }
+
+        /* Main Video */
+        .main-video { 
+            margin-bottom: 50px; 
+            position: relative;
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+        .video-placeholder {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, #1F2937, #374151);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+        .video-placeholder i {
+            font-size: 4rem;
+            color: var(--accent);
+            margin-bottom: 20px;
+        }
+        .video-placeholder h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+        .video-placeholder p {
+            color: var(--text-light);
+            margin-bottom: 20px;
+            max-width: 600px;
+        }
+        .watch-btn {
+            background: var(--primary);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .watch-btn:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+        }
+
+        /* Section Titles */
+        .section-title {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            text-align: center;
+            color: var(--accent);
+            position: relative;
+            padding-bottom: 10px;
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 3px;
+            background: var(--primary);
+        }
+
+        /* Apps & Videos Grid */
+        .apps-row, .videos-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            padding-bottom: 20px;
+        }
+
+        /* App & Video Card Styles */
+        .app-card, .video-card {
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            padding: 15px;
+            box-shadow: var(--shadow);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .app-card:hover, .video-card:hover { 
+            transform: translateY(-5px); 
+        }
+
+        .app-header { 
+            display: flex; 
+            align-items: center; 
+            margin-bottom: 10px; 
+        }
+        .app-icon { 
+            width: 50px; 
+            height: 50px; 
+            background: linear-gradient(45deg, var(--primary), var(--accent)); 
+            border-radius: 10px; 
+            display:flex; 
+            align-items:center; 
+            justify-content:center; 
+            margin-right: 10px; 
+            font-size:1.5rem; 
+        }
+        .app-name { 
+            font-size: 1.2rem; 
+            font-weight:600; 
+        }
+        .feature { 
+            display:flex; 
+            align-items:center; 
+            margin-bottom:5px; 
+            font-size:0.9rem; 
+        }
+        .feature i { 
+            color: var(--primary); 
+            margin-right:6px; 
+            width:16px; 
+        }
+        .download-btn { 
+            display:block; 
+            text-align:center; 
+            padding:8px; 
+            margin-top:10px; 
+            background: var(--primary); 
+            color:#fff; 
+            border-radius:6px; 
+            text-decoration:none; 
+            font-weight:600; 
+            transition: all 0.3s ease;
+            margin-top: auto;
+        }
+        .download-btn:hover { 
+            background: var(--primary-dark); 
+            transform: translateY(-2px); 
+        }
+
+        .video-card img.thumbnail { 
+            width:100%; 
+            height:150px; 
+            object-fit:cover; 
+            border-radius: var(--radius); 
+            margin-bottom:10px;
+        }
+        .card-title { 
+            font-size:1rem; 
+            font-weight:600; 
+            margin-bottom:5px; 
+            line-height: 1.4;
+        }
+        .card-stats { 
+            display:flex; 
+            justify-content:space-between; 
+            font-size:0.8rem; 
+            color:var(--text-light); 
+            margin-top: auto;
+        }
+
+        /* Footer */
+        footer { 
+            text-align:center; 
+            padding:30px; 
+            background: var(--secondary); 
+            border-radius: var(--radius); 
+            margin-top:40px; 
+        }
+        footer .disclaimer { 
+            font-size:0.9rem; 
+            color:var(--text-light); 
+            margin-bottom:20px; 
+            line-height:1.5; 
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        footer .social-links { 
+            display:flex; 
+            justify-content:center; 
+            gap:15px; 
+            margin-bottom:15px; 
+        }
+        footer .social-links a { 
+            width:40px; 
+            height:40px; 
+            display:flex; 
+            align-items:center; 
+            justify-content:center; 
+            background:var(--card-bg); 
+            color:#fff; 
+            border-radius:50%; 
+            transition:all 0.3s ease; 
+            text-decoration:none; 
+        }
+        footer .social-links a:hover { 
+            background:var(--primary); 
+            transform: translateY(-3px); 
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+        }
+        .breadcrumb a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width:768px) {
+            header h1 { font-size:1.8rem; }
+            header .logo { font-size:2.2rem; }
+            .video-container { height:300px; }
+            .video-placeholder i { font-size: 3rem; }
+            .video-placeholder h3 { font-size: 1.2rem; }
+            .apps-row, .videos-row {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width:480px) {
+            .container {
+                padding: 10px;
+            }
+            header {
+                padding: 20px 15px;
+            }
+            header h1 {
+                font-size: 1.5rem;
+            }
+            .section-title {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Breadcrumb -->
+        <div class="breadcrumb">
+            <a href="#">होम</a> > <a href="#">कमाई ऐप्स</a> > टॉप 10 बेस्ट कमाई ऐप्स 2024
+        </div>
+
+        <!-- Header -->
+        <header>
+            <div class="logo"><i class="fas fa-rupee-sign"></i>ईयरनिंग अप्स हब</div>
+            <h1>10 Best Indian Earning Apps Without Investment</h1>
+            <p class="subtitle">बिना पैसा लगाए पैसे कमाएं - 2024 की सबसे बेहतरीन ऐप्स</p>
+        </header>
+
+        <!-- Main Video -->
+        <section class="main-video">
+            <div class="video-container">
+                <div class="video-placeholder">
+                    <i class="fas fa-play-circle"></i>
+                    <h3>बिना निवेश के पैसे कमाएं</h3>
+                    <p>YouTube पर पूरा वीडियो देखने के लिए नीचे दिए बटन पर क्लिक करें। 2024 के टॉप 10 कमाई ऐप्स की पूरी जानकारी हिंदी में।</p>
+                    <a href="https://www.youtube.com/results?search_query=earning+apps+without+investment+2024" class="watch-btn" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-youtube"></i> YouTube पर देखें
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Apps Section -->
+        <section class="apps-section">
+            <h2 class="section-title">टॉप 10 बेस्ट कमाई ऐप्स</h2>
+            <div class="apps-row">
+                <!-- App 1 -->
+                <div class="app-card">
+                    <div class="app-header">
+                        <div class="app-icon"><i class="fas fa-brain"></i></div>
+                        <div class="app-name">Mozo</div>
+                    </div>
+                    <div class="feature"><i class="fas fa-check"></i>क्विज़ खेलकर पैसे कमाएं</div>
+                    <div class="feature"><i class="fas fa-check"></i>न्यूनतम निकासी: ₹50</div>
+                    <div class="feature"><i class="fas fa-star"></i>रेटिंग: 4.2/5</div>
+                    <a href="https://play.google.com/store/apps/details?id=com.mozoapp" class="download-btn" target="_blank" rel="noopener noreferrer">डाउनलोड करें</a>
+                </div>
+                
+                <!-- App 2 -->
+                <div class="app-card">
+                    <div class="app-header">
+                        <div class="app-icon"><i class="fas fa-poll"></i></div>
+                        <div class="app-name">Google Opinion Rewards</div>
+                    </div>
+                    <div class="feature"><i class="fas fa-check"></i>सर्वे भरकर पैसे कमाएं</div>
+                    <div class="feature"><i class="fas fa-check"></i>न्यूनतम निकासी: ₹30</div>
+                    <div class="feature"><i class="fas fa-star"></i>रेटिंग: 4.4/5</div>
+                    <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.paidtasks" class="download-btn" target="_blank" rel="noopener noreferrer">डाउनलोड करें</a>
+                </div>
+                
+                <!-- App 3 -->
+                <div class="app-card">
+                    <div class="app-header">
+                        <div class="app-icon"><i class="fas fa-shopping-bag"></i></div>
+                        <div class="app-name">CashKaro</div>
+                    </div>
+                    <div class="feature"><i class="fas fa-check"></i>शॉपिंग से कैशबैक पाएं</div>
+                    <div class="feature"><i class="fas fa-check"></i>न्यूनतम निकासी: ₹250</div>
+                    <div class="feature"><i class="fas fa-star"></i>रेटिंग: 4.1/5</div>
+                    <a href="https://play.google.com/store/apps/details?id=com.cashkaro.android" class="download-btn" target="_blank" rel="noopener noreferrer">डाउनलोड करें</a>
+                </div>
+                
+                <!-- App 4 -->
+                <div class="app-card">
+                    <div class="app-header">
+                        <div class="app-icon"><i class="fas fa-gamepad"></i></div>
+                        <div class="app-name">WinZo</div>
+                    </div>
+                    <div class="feature"><i class="fas fa-check"></i>गेम्स खेलकर पैसे कमाएं</div>
+                    <div class="feature"><i class="fas fa-check"></i>न्यूनतम निकासी: ₹10</div>
+                    <div class="feature"><i class="fas fa-star"></i>रेटिंग: 4.3/5</div>
+                    <a href="https://play.google.com/store/apps/details?id=winzo.kbc" class="download-btn" target="_blank" rel="noopener noreferrer">डाउनलोड करें</a>
+                </div>
+                
+                <!-- App 5 -->
+                <div class="app-card">
+                    <div class="app-header">
+                        <div class="app-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <div class="app-name">Mcent</div>
+                    </div>
+                    <div class="feature"><i class="fas fa-check"></i>ऐप्स इंस्टॉल कर कमाएं</div>
+                    <div class="feature"><i class="fas fa-check"></i>न्यूनतम निकासी: ₹100</div>
+                    <div class="feature"><i class="fas fa-star"></i>रेटिंग: 3.9/5</div>
+                    <a href="https://play.google.com/store/apps/details?id=com.mcent.browser" class="download-btn" target="_blank" rel="noopener noreferrer">डाउनलोड करें</a>
+                </div>
+                
+                <!-- App 6 -->
+                <div class="app-card">
+                    <div class="app-header">
+                        <div class="app-icon"><i class="fas fa-video"></i></div>
+                        <div class="app-name">Roposo</div>
+                    </div>
+                    <div class="feature"><i class="fas fa-check"></i>वीडियो बनाकर कमाएं</div>
+                    <div class="feature"><i class="fas fa-check"></i>न्यूनतम निकासी: ₹200</div>
+                    <div class="feature"><i class="fas fa-star"></i>रेटिंग: 4.0/5</div>
+                    <a href="https://play.google.com/store/apps/details?id=com.roposo.android" class="download-btn" target="_blank" rel="noopener noreferrer">डाउनलोड करें</a>
+                </div>
+                
+                <!-- App 7 -->
+                <div class="app-card">
+                    <div class="app-header">
+                        <div class="app-icon"><i class="fas fa-walking"></i></div>
+                        <div class="app-name">StepSetGo</div>
+                    </div>
+                    <div class="feature"><i class="fas fa-check"></i>चलकर पैसे कमाएं</div>
+                    <div class="feature"><i class="fas fa-check"></i>न्यूनतम निकासी: ₹100</div>
+                    <div class="feature"><i class="fas fa-star"></i>रेटिंग: 4.2/5</div>
+                    <a href="https://play.google.com/store/apps/details?id=com.stepsetgo.app" class="download-btn" target="_blank" rel="noopener noreferrer">डाउनलोड करें</a>
+                </div>
+                
+                <!-- App 8 -->
+                <div class="app-card">
+                    <div class="app-header">
+                        <div class="app-icon"><i class="fas fa-book-reader"></i></div>
+                        <div class="app-name">Khabri</div>
+                    </div>
+                    <div class="feature"><i class="fas fa-check"></i>ऑडियो सुनकर कमाएं</div>
+                    <div class="feature"><i class="fas fa-check"></i>न्यूनतम निकासी: ₹100</div>
+                    <div class="feature"><i class="fas fa-star"></i>रेटिंग: 4.1/5</div>
+                    <a href="https://play.google.com/store/apps/details?id=com.khabri.app" class="download-btn" target="_blank" rel="noopener noreferrer">डाउनलोड करें</a>
+                </div>
+                
+                <!-- App 9 -->
+                <div class="app-card">
+                    <div class="app-header">
+                        <div class="app-icon"><i class="fas fa-tasks"></i></div>
+                        <div class="app-name">TaskBucks</div>
+                    </div>
+                    <div class="feature"><i class="fas fa-check"></i>छोटे काम कर कमाएं</div>
+                    <div class="feature"><i class="fas fa-check"></i>न्यूनतम निकासी: ₹50</div>
+                    <div class="feature"><i class="fas fa-star"></i>रेटिंग: 3.8/5</div>
+                    <a href="https://play.google.com/store/apps/details?id=com.taskbucks.app" class="download-btn" target="_blank" rel="noopener noreferrer">डाउनलोड करें</a>
+                </div>
+                
+                <!-- App 10 -->
+                <div class="app-card">
+                    <div class="app-header">
+                        <div class="app-icon"><i class="fas fa-rupee-sign"></i></div>
+                        <div class="app-name">Roz Dhan</div>
+                    </div>
+                    <div class="feature"><i class="fas fa-check"></i>रोजाना कार्य कर कमाएं</div>
+                    <div class="feature"><i class="fas fa-check"></i>न्यूनतम निकासी: ₹51</div>
+                    <div class="feature"><i class="fas fa-star"></i>रेटिंग: 4.0/5</div>
+                    <a href="https://play.google.com/store/apps/details?id=com.rozapp.dhan" class="download-btn" target="_blank" rel="noopener noreferrer">डाउनलोड करें</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Videos -->
+        <section class="related-videos">
+            <h2 class="section-title">कमाई के टिप्स वीडियो</h2>
+            <div class="videos-row">
+                <div class="video-card">
+                    <img class="thumbnail" src="https://i.ytimg.com/vi/5h-JJqkK_70/hqdefault.jpg" alt="बिना निवेश के पैसे कमाने वाले ऐप्स" loading="lazy">
+                    <div class="card-title">बिना निवेश के पैसे कमाने वाले ऐप्स 2024</div>
+                    <div class="card-stats"><span>125K views</span><span>3 days ago</span></div>
+                </div>
+                <div class="video-card">
+                    <img class="thumbnail" src="https://i.ytimg.com/vi/9bZkp7q19f0/hqdefault.jpg" alt="कैशबैक ऐप्स से कैसे कमाएं" loading="lazy">
+                    <div class="card-title">कैशबैक ऐप्स से कैसे कमाएं - पूरी जानकारी</div>
+                    <div class="card-stats"><span>98K views</span><span>1 week ago</span></div>
+                </div>
+                <div class="video-card">
+                    <img class="thumbnail" src="https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg" alt="गेम्स से पैसे कमाने के तरीके" loading="lazy">
+                    <div class="card-title">गेम्स से पैसे कमाने के 5 आसान तरीके</div>
+                    <div class="card-stats"><span>75K views</span><span>2 weeks ago</span></div>
+                </div>
+                <div class="video-card">
+                    <img class="thumbnail" src="https://i.ytimg.com/vi/abc123def456/hqdefault.jpg" alt="सर्वे से पैसे कमाने व
